@@ -4,9 +4,10 @@
 # build 
 Run-time environment: GNU/Linux 64 bits 
 
-`cd ver2`
-
-`make all`
+```
+cd ver2
+make all
+```
 
 # usage 
 
