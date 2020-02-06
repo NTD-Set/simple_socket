@@ -18,6 +18,7 @@ namespace {
         fp = fopen("./DATA.txt", "at");
         if (!fp) {
             printf ("can't open file \n");
+            return;
         }
         printf ("saving  [%s]\n", data.c_str());
         fprintf(fp, "%s\n", data.c_str());
